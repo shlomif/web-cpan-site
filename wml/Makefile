@@ -1,5 +1,5 @@
 
-RSYNC = rsync --progress --verbose --rsh=ssh
+RSYNC = rsync --progress --verbose --rsh=ssh --inplace
 
 ALL_DEST_BASE = dest
 
@@ -31,10 +31,10 @@ news_feeds: $(RSS_FEED)
 $(RSS_FEED): gen-feeds.pl lib/MyManageNews.pm
 	perl -Ilib gen-feeds.pl --rss2-out="$@"
 
-upload: upload_berlios
+upload: upload_hostgator
 
-upload_berlios: all
-	(cd dest && $(RSYNC) -a * shlomif@shell.berlios.de:/home/groups/web-cpan/htdocs/)
+upload_hostgator: all
+	(cd dest && $(RSYNC) -a * hostgator:domains/web-cpan/public_html/)
 
 .PHONY:
 
