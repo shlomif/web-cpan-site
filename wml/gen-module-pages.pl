@@ -19,7 +19,7 @@ foreach my $m (@$modules)
     if (! -d $dir_name)
     {
         mkdir($dir_name);
-        system("svn", "add", "-N", $dir_name);
+        # system("svn", "add", "-N", $dir_name);
     }
 
     open O, ">", $file_name;
@@ -30,8 +30,9 @@ foreach my $m (@$modules)
 <subject "$subject" />
 EOF
     close(O);
-    
-    system("svn","add",$file_name);
+
+    # system("svn","add",$file_name);
+    system ( "hg", "add", $file_name );
     # Update the template.wml so the navigation menus will be rebuilt.
     #
     my $t = time();
