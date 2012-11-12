@@ -13,10 +13,10 @@ my @modules_list =
         'svn_dir' => "App-XML-DocBook-Builder",
         'desc' => <<"EOF",
 <p>
-Docmake is a command line tool to translate 
+Docmake is a command line tool to translate
 <a href="http://en.wikipedia.org/wiki/DocBook">DocBook/XML</a> code into
 various resultnats formats such as XHTML, RTF, PDF and XSL-FO, using the
-more low-level tools. It aims to be a replacement for 
+more low-level tools. It aims to be a replacement for
 <a href="http://cyberelk.net/tim/software/xmlto/">xmlto</a>.
 </p>
 
@@ -37,10 +37,10 @@ EOF
         'desc' => <<"EOF",
 <p>
 This is a module to strip whitespace out of HTML pages. As opposed to other
-solutions (like 
+solutions (like
 <a href="http://search.cpan.org/dist/HTML-Clean/">HTML-Clean</a>), it does not
 touch whitespace inside <tt>&lt;pre&gt;</tt> tags (and in the future possibly
-other whitespace-aware markup.) 
+other whitespace-aware markup.)
 </p>
 <p>
 Using the <a href="http://search.cpan.org/dist/HTML-Tidy/">HTML-Tidy</a> (or
@@ -56,11 +56,11 @@ EOF
         'title' => "Generate Navigation Menus",
         'svn_dir' => "nav-menu",
         'desc' => <<"EOF",
-<p>        
+<p>
 This is a module to generate HTML navigation menus, such as those found in
 the side-bar of various sites (like that of this one, or of
 <a href="http://www.shlomifish.org/">Shlomi Fish' Homepage</a>). It supports
-many advanced features such as building relative links or absolute links, 
+many advanced features such as building relative links or absolute links,
 selective expansion, and multi-host sites.
 </p>
 <p>
@@ -72,7 +72,7 @@ be easily extended and customized, given a small amount of studying.
 
 <ul>
 <li>
-<a href="http://www.perl.com/pub/a/2005/07/07/navwidgets.html">"Building 
+<a href="http://www.perl.com/pub/a/2005/07/07/navwidgets.html">"Building
 Navigation Menus" at Perl.com</a> - an article that covers common web-site
 navigation and site flow patterns in general and then demonstrates how to
 implement them using HTML-Widgets-NavMenu.
@@ -81,7 +81,7 @@ implement them using HTML-Widgets-NavMenu.
 <h2>Web-Sites that Use HTML::Widgets::NavMenu</h2>
 <ul>
 <li>
-<a href="http://www.shlomifish.org/">Shlomi Fish' Homepage</a> 
+<a href="http://www.shlomifish.org/">Shlomi Fish' Homepage</a>
 (<a href="http://stalker.iguide.co.il:8080/svn/shlomif-homepage/homepage/trunk/">Code</a>)
 </li>
 <li>
@@ -89,7 +89,7 @@ implement them using HTML-Widgets-NavMenu.
 (<a href="http://opensvn.csie.org/perlbegin/perl-begin/trunk/">Code</a>)
 </li>
 <li>
-<a href="http://www.aspetersen.de/">Alexia &amp; Stephan Petersen</a> 
+<a href="http://www.aspetersen.de/">Alexia &amp; Stephan Petersen</a>
 </li>
 </ul>
 <h2>Project Resources</h2>
@@ -122,7 +122,7 @@ was recently adopted by us.
 <h2>Project Resources</h2>
 <ul>
 <li>
-<a href="http://freshmeat.net/projects/statistics-descriptive">Freshmeat 
+<a href="http://freshmeat.net/projects/statistics-descriptive">Freshmeat
 Record</a>
 </li>
 </ul>
@@ -130,12 +130,12 @@ EOF
     },
     {
         'perl_name' => "SVN-Pusher",
-        'text' => "SVN::Pusher", 
+        'text' => "SVN::Pusher",
         'title' => "Propagate Changesets between Subversion Repositories",
         'svn_dir' => "SVN-Pusher",
         'desc' => <<"EOF",
 <p>
-This module allows one to propagate changesets from one 
+This module allows one to propagate changesets from one
 <a href="http://subversion.tigris.org/">Subversion repository</a> to the
 other.
 </p>
@@ -149,12 +149,12 @@ EOF
         'desc' => <<"EOF",
 <p>
 This module once installed and driven by a CGI script provides a lightweight
-Web-based browser for remote 
-<a href="http://subversion.tigris.org/">Subversion</a> repositories, not 
+Web-based browser for remote
+<a href="http://subversion.tigris.org/">Subversion</a> repositories, not
 unlike the default HTML one for http:// repositories. (with some improvements)
 </p>
 <p>
-If you deploy this module in a public URL with a good bandwidth, let me know 
+If you deploy this module in a public URL with a good bandwidth, let me know
 so I can link to it here for demonstration purposes.
 </p>
 <h2>Demos</h2>
@@ -165,21 +165,21 @@ EOF
     },
     {
         'perl_name' => "Test-Run",
-        'text' => "Test::Run", 
+        'text' => "Test::Run",
         'title' => "A new and improved test harness",
         'svn_dir' => "Test-Harness-NG",
         'desc' => <<"EOF",
 <p>
-Test::Run is a new and improved test harness for processing 
+Test::Run is a new and improved test harness for processing
 <a href="http://testanything.org/">TAP (Test Anything Protocol)</a>-based
-test files. It is based on 
+test files. It is based on
 <a href="http://search.cpan.org/dist/Test-Harness/">Test-Harness</a>,
 but incorporates many internals improvement, a separation of the code
 to a backend and frontend, etc.
 </p>
 
 <p>
-To get started with Test::Run <a href="http://search.cpan.org/dist/Task-Test-Run-AllPlugins/lib/Task/Test/Run/AllPlugins.pm">see the instructions on its 
+To get started with Test::Run <a href="http://search.cpan.org/dist/Task-Test-Run-AllPlugins/lib/Task/Test/Run/AllPlugins.pm">see the instructions on its
 CPAN "AllPlugins" Task</a>.
 </p>
 
@@ -223,12 +223,12 @@ Talk about Test::Run</a>.
 <ul>
 
 <li>
-<a href="http://use.perl.org/~Shlomi+Fish/journal/27467">Test::Shlomif::Harness - 
+<a href="http://use.perl.org/~Shlomi+Fish/journal/27467">Test::Shlomif::Harness -
 Giving Test::Harness a Face Life</a> (6 November, 2005)
 </li>
 
 <li>
-<a href="http://use.perl.org/~Shlomi+Fish/journal/27887">"Test::Run (formerly Test::Shlomif::Harness) Developments (7 December, 2005)</a> 
+<a href="http://use.perl.org/~Shlomi+Fish/journal/27887">"Test::Run (formerly Test::Shlomif::Harness) Developments (7 December, 2005)</a>
 </li>
 
 <li>
@@ -240,17 +240,17 @@ Giving Test::Harness a Face Life</a> (6 November, 2005)
 </li>
 
 <li>
-<a href="http://use.perl.org/~Shlomi+Fish/journal/31651">First non-Developer 
+<a href="http://use.perl.org/~Shlomi+Fish/journal/31651">First non-Developer
 Release of Test::Run</a>
 </li>
 
 <li>
-<a href="http://use.perl.org/~Shlomi+Fish/journal/32493">Test::Run Update from 
+<a href="http://use.perl.org/~Shlomi+Fish/journal/32493">Test::Run Update from
 24 February, 2007</a>
 </li>
 
 <li>
-<a href="http://use.perl.org/~Shlomi+Fish/journal/32725">Oh no, 
+<a href="http://use.perl.org/~Shlomi+Fish/journal/32725">Oh no,
 it's Another Test::Run Update!</a>
 </li>
 
@@ -286,9 +286,9 @@ EOF
         'svn_dir' => "www-opensvn",
         'desc' => <<"EOF"
 <p>
-WWW::OpenSVN is an automated interface for the 
+WWW::OpenSVN is an automated interface for the
 <a href="http://opensvn.csie.org/">OpenSVN online Subversion repositories
-service</a>. At the moment it allows one to backup the dumps of one's 
+service</a>. At the moment it allows one to backup the dumps of one's
 repositories.
 </p>
 EOF
@@ -300,13 +300,13 @@ EOF
         'svn_dir' => "xml-compareml",
         'desc' => <<"EOF"
 <p>
-XML::CompareML is a module for managing multi-system and multi-item 
+XML::CompareML is a module for managing multi-system and multi-item
 comparisons. The primary use of this module by its author was to manage
-<a href="http://better-scm.berlios.de/comparison/">the Better SCM 
+<a href="http://better-scm.berlios.de/comparison/">the Better SCM
 comparison of version control systems</a>.
 </p>
 <p>
-The Perl versions can generate either HTML or 
+The Perl versions can generate either HTML or
 <a href="http://www.docbook.org/">DocBook/XML</a>. (the latter can be
 converted into many other formats). Also available is an XSLT stylesheet
 for transforming the XML markup into HTML.
@@ -321,7 +321,7 @@ EOF
         'desc' => <<"EOF",
 <p>
 XML-Grammar-Fortune allows one to collect quotes (or Unix-like fortune
-cookies) using an XML grammar, with a lot of rich meta-data, and to produce 
+cookies) using an XML grammar, with a lot of rich meta-data, and to produce
 XHTML and plaintext from them.
 </p>
 
@@ -391,12 +391,12 @@ Record</a>
 
 <ul>
 <li>
-<a href="http://www.shlomifish.org/humour/TOWTF/">The One with the 
-Fountainhead</a> - original text, but fan fiction of the T.V. show 
+<a href="http://www.shlomifish.org/humour/TOWTF/">The One with the
+Fountainhead</a> - original text, but fan fiction of the T.V. show
 "Friends".
 </li>
 <li>
-<a href="http://www.shlomifish.org/humour/humanity/">Humanity - The 
+<a href="http://www.shlomifish.org/humour/humanity/">Humanity - The
 Movie</a> - all original text and concept. Under the CC-by-sa license.
 </li>
 <li>
@@ -406,23 +406,23 @@ Star Trek.
 </li>
 <li>
 <a href="http://www.shlomifish.org/open-source/interviews/">Interviews with
-Open Source People</a> - several interviews whose original hacky 
+Open Source People</a> - several interviews whose original hacky
 like-XML-but-not-quite source was converted to ScreenplayText and then
 rendered into XML and XHTML.
 </li>
 <li>
-<a href="http://www.shlomifish.org/humour/by-others/hitchhiker-guide-to-star-trek-tng.html">"The Hitchhiker's Guide to Star Trek - The Next Generation"</a> - David T. Lu's and Mickey McCarter's old parodical screenplay crosses <i>The 
+<a href="http://www.shlomifish.org/humour/by-others/hitchhiker-guide-to-star-trek-tng.html">"The Hitchhiker's Guide to Star Trek - The Next Generation"</a> - David T. Lu's and Mickey McCarter's old parodical screenplay crosses <i>The
 Hitchhiker's Guide to the Galaxy</i> and <i>Star Trek: The Next Generation</i>.
 It was converted into Screenplay-Text format using a crude perl-5.10.x script
 and from that translated into XHTML.
 </li>
 <li>
-Some shorter and sillier examples can be found <a href="http://svn.berlios.de/svnroot/repos/web-cpan/XML-Grammar-Screenplay/trunk/perl/modules/XML-Grammar-Screenplay/t/data/">in the test data directory</a>. 
+Some shorter and sillier examples can be found <a href="http://svn.berlios.de/svnroot/repos/web-cpan/XML-Grammar-Screenplay/trunk/perl/modules/XML-Grammar-Screenplay/t/data/">in the test data directory</a>.
 </li>
 </ul>
 EOF
     }
-    
+
 );
 
 sub get_module_list
