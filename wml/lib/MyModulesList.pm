@@ -10,6 +10,7 @@ my @modules_list =
         'subject' => "Docmake",
         'text' => "Docmake",
         'title' => "Translate DocBook/XML to Other Formats using XSLT",
+        'vcs' => { type => "bitbucket", id => "docmake", },
         'svn_dir' => "App-XML-DocBook-Builder",
         'desc' => <<"EOF",
 <p>
@@ -33,6 +34,7 @@ EOF
         'perl_name' => "HTML-Strip-Whitespace",
         'text' => "Strip Whitespace",
         'title' => "Strip Unnecessary Whitespace from HTML",
+        'vcs' => { type => "bitbucket", id => "docmake", },
         'svn_dir' => "html-strip-ws",
         'desc' => <<"EOF",
 <p>

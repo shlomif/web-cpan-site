@@ -143,17 +143,31 @@ my $modules_list = MyModulesList::get_module_list();
 my ($module_record) = (grep {$_->{'perl_name'} eq $module_name } @$modules_list);
 
 print "<h2>CPAN Record</h2>\n\n";
-my $cpan_link = "http://search.cpan.org/dist/$module_name/";
+my $cpan_link = "http://metacpan.org/release/$module_name";
 print "<p><a href=\"$cpan_link\">$cpan_link</a></p>\n";
 print "<h2>Description</h2>\n";
 print $module_record->{'desc'};
-print "<h2>Subversion Directories</h2>\n";
-my $repos_sub_path = "$module_record->{svn_dir}/trunk/";
-my $svn_url = "http://svn.berlios.de/svnroot/repos/web-cpan";
-print "<ul>\n<li>\n<a href=\"$svn_url/$repos_sub_path\">Trunk URL</a> (other
-branches and tags can be found one level below it.)\n</li>\n";
-print "<li>\n<a href=\"http://svn.berlios.de/viewcvs/web-cpan/$repos_sub_path\" rel=\"versioncontrol\">Browse the code online</a>\n</li>\n";
-print "</ul>\n";
+
+if (my $vcs = $module_record->{'vcs'})
+{
+    if ($vcs->{'type'} eq "bitbucket")
+    {
+        print "<h2>Version Control</h2>\n";
+        print "<ul>\n";
+        print qq{<li><a href="http://bitbucket.org/shlomif/$vcs->{id}">BitBucket (Mercurial) Repository</a></li>\n};
+        print "</ul>\n";
+    }
+}
+else
+{
+    print "<h2>Subversion Directories</h2>\n";
+    my $repos_sub_path = "$module_record->{svn_dir}/trunk/";
+    my $svn_url = "http://svn.berlios.de/svnroot/repos/web-cpan";
+    print "<ul>\n<li>\n<a href=\"$svn_url/$repos_sub_path\">Trunk URL</a> (other
+        branches and tags can be found one level below it.)\n</li>\n";
+    print "<li>\n<a href=\"http://svn.berlios.de/viewcvs/web-cpan/$repos_sub_path\" rel=\"versioncontrol\">Browse the code online</a>\n</li>\n";
+    print "</ul>\n";
+}
 }:>
 </define-tag>
 #   per default we are in body
