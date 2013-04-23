@@ -319,6 +319,7 @@ EOF
         'perl_name' => "XML-Grammar-Fortune",
         'text' => "XML-Grammar-Fortune",
         'title' => "An XML Grammar for Defining Collections of Quotes",
+        'vcs' => { type => "bitbucket", id => "fortune-xml", },
         'svn_dir' => "XML-Grammar-Fortune",
         'desc' => <<"EOF",
 <p>
