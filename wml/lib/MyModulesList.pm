@@ -84,11 +84,11 @@ implement them using HTML-Widgets-NavMenu.
 <ul>
 <li>
 <a href="http://www.shlomifish.org/">Shlomi Fish' Homepage</a>
-(<a href="http://stalker.iguide.co.il:8080/svn/shlomif-homepage/homepage/trunk/">Code</a>)
+(<a href="http://bitbucket.org/shlomif/shlomi-fish-homepage">Code</a>)
 </li>
 <li>
 <a href="http://perl-begin.org/">The Perl Beginners' Site</a>
-(<a href="http://opensvn.csie.org/perlbegin/perl-begin/trunk/">Code</a>)
+(<a href="http://bitbucket.org/shlomif/perl-begin">Code</a>)
 </li>
 <li>
 <a href="http://www.aspetersen.de/">Alexia &amp; Stephan Petersen</a>
