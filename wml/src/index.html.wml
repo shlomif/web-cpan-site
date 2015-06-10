@@ -3,7 +3,7 @@
 <subject "Web-CPAN" />
 
 <div class="notice">
-<h2>Enhance a Web-CPAN Project and Get an 
+<h2>Enhance a Web-CPAN Project and Get an
 <a href="http://www.ozyandmillie.org/">Ozy and Millie</a> T-Shirt!</h2>
 
 <p>
@@ -12,22 +12,16 @@
 </div>
 
 <p>
-Welcome to web-cpan.berlios.de - a 
-<a href="http://developer.berlios.de/">BerliOS</a> hub for development of 
-various World-Wide-Web-related CPAN modules. 
+Welcome to Web-CPAN - a collection of
+various World-Wide-Web-related CPAN modules.
 </p>
 
 <p>
-Our <a href="http://svn.berlios.de/svnroot/repos/web-cpan/">Subversion 
-repository</a>  maintains the code for the modules, and this web-site provides 
-links, and some information besides what is available on 
-<a href="http://search.cpan.org/">search.cpan.org</a>.
+These modules used to be in a centralised Subversion repository on BerliOS,
+but now they are in various version control repositories on bitbucket.org and
+GitHub.com. See <a href="https://metacpan.org/author/SHLOMIF">Shlomi Fish’s
+page on MetaCPAN</a>.
+This web-site provides
+links, and some information besides what is available on
+<a href="http://metacpan.org/">MetaCPAN</a>.
 </p>
-
-<p>
-If you want to maintain your own module here, then register at BerliOS, 
-and send <a href="mailto:shlomif@iglu.org.il">the webmaster</a> a request
-with the name of the module, a link to its homepage on search.cpan.org, your
-BerliOS username and other information you consider relevant.
-</p>
-

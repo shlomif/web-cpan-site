@@ -304,7 +304,7 @@ EOF
 <p>
 XML::CompareML is a module for managing multi-system and multi-item
 comparisons. The primary use of this module by its author was to manage
-<a href="http://better-scm.berlios.de/comparison/">the Better SCM
+<a href="http://better-scm.shlomifish.org/comparison/">the Better SCM
 comparison of version control systems</a>.
 </p>
 <p>
@@ -420,7 +420,7 @@ It was converted into Screenplay-Text format using a crude perl-5.10.x script
 and from that translated into XHTML.
 </li>
 <li>
-Some shorter and sillier examples can be found <a href="http://svn.berlios.de/svnroot/repos/web-cpan/XML-Grammar-Screenplay/trunk/perl/modules/XML-Grammar-Screenplay/t/data/">in the test data directory</a>.
+Some shorter and sillier examples can be found <a href="https://bitbucket.org/shlomif/fiction-xml/src/91995a2963c742cd55bc91c076a4ce75c1b58026/perl/modules/XML-Grammar-Fiction/t/screenplay/data/?at=default">in the test data directory</a>.
 </li>
 </ul>
 EOF

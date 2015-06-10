@@ -64,7 +64,7 @@ $(ROOT)/<get-var url />
 <define-tag site:link whitespace="delete">
 <preserve url />
 <set-var %attributes />
-http://web-cpan.berlios.de/<get-var url />
+http://web-cpan.shlomifish.org/<get-var url />
 <restore url />
 </define-tag>
 
@@ -101,14 +101,9 @@ http://web-cpan.berlios.de/<get-var url />
          /></a>
 </p>
 <p>
- <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%%3A//web-cpan.berlios.de/$(LATEMP_FILENAME)"><img style="border:0"
+ <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%%3A//web-cpan.shlomifish.org/$(LATEMP_FILENAME)"><img style="border:0"
        src="$(ROOT)/images/vcss.gif" 
        alt="Valid CSS!" /></a>
-</p>
-<p>
-<a href="https://developer.berlios.de/project/make_donation.php?group_id=2352"
-title="Make a Donation to support the project."><img
-style="border:0" src="$(ROOT)/images/paypal.gif" alt="PayPal Donate" /></a>
 </p>
 </define-tag>
 
@@ -157,16 +152,6 @@ if (my $vcs = $module_record->{'vcs'})
         print qq{<li><a href="http://bitbucket.org/shlomif/$vcs->{id}">BitBucket (Mercurial) Repository</a></li>\n};
         print "</ul>\n";
     }
-}
-else
-{
-    print "<h2>Subversion Directories</h2>\n";
-    my $repos_sub_path = "$module_record->{svn_dir}/trunk/";
-    my $svn_url = "http://svn.berlios.de/svnroot/repos/web-cpan";
-    print "<ul>\n<li>\n<a href=\"$svn_url/$repos_sub_path\">Trunk URL</a> (other
-        branches and tags can be found one level below it.)\n</li>\n";
-    print "<li>\n<a href=\"http://svn.berlios.de/viewcvs/web-cpan/$repos_sub_path\" rel=\"versioncontrol\">Browse the code online</a>\n</li>\n";
-    print "</ul>\n";
 }
 }:>
 </define-tag>

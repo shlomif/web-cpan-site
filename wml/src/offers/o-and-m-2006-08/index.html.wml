@@ -3,7 +3,7 @@
 <subject "Write a Patch for Web-CPAN and Get an &quot;Ozy &amp; Millie&quot; T-Shirt" />
 
 <p>
-As a special offer to encourage other people to become involved, the 
+As a special offer to encourage other people to become involved, the
 <a href="$(ROOT)/">web-cpan project</a> is going to offer
 <a href="http://www.ozyandmillie.org/">Ozy and Millie</a> T-Shirts to the
 first 5 people who contribute one substantial patch or several smaller ones
@@ -16,26 +16,14 @@ The process is as follows:
 
 <ol>
 <li>
-<a href="http://developer.berlios.de/">Register at BerliOS</a> in case you're 
-not registered already.
+Write the patch, or
+<a href="http://www.shlomifish.org/me/contact-me/">announce your intentions to
+me</a> and then write it. You can also send a pull request.
 </li>
 <li>
-Either write the patch, or 
-<a href="http://www.shlomifish.org/me/contact-me/">announce your intentions to 
-me</a> and then write it. 
-</li>
-<li>
-After the patch is written, notify me. I'll give you a commit bit and you can
-commit it yourself to the Subversion repository.
-</li>
-<li>
-Choose a shirt from <a href="http://www.cafepress.com/ozyandmillie">the 
+Choose a shirt from <a href="http://www.cafepress.com/ozyandmillie">the
 store</a> and email me your shipping address, shirt size and cut, and other
 required details.
-</li>
-<li>
-At your option use your newfound commit access to contribute more enhancements
-to the Web-CPAN.berlios.de projects.
 </li>
 </ol>
 
@@ -50,8 +38,8 @@ This offer was started from the following reasons:
 To encourage contributions for the Web-CPAN Projects.
 </li>
 <li>
-To bring some publicity to the <a href="http://www.ozyandmillie.org/">Ozy 
-and Millie</a> comic, which is a very cool, and highly aesthetic comic by
+To bring some publicity to the <a href="http://www.ozyandmillie.org/">Ozy
+and Millie</a> comic, which is a very cool, and a highly aesthetic, comic by
 a very cool artist.
 </li>
 <li>
@@ -73,35 +61,35 @@ and improved test harness for analysing TAP output, based on Test::Harness,
 but heavily revamped (and API incompatible with it.)
 </li>
 <li>
-<a href="http://svn.berlios.de/svnroot/repos/web-cpan/web-nntp-iface/trunk/">CGI-Application-NetNewsIface</a> - a
-readonly web frontend to a remote NNTP (Usenet) server ultimately aimed to 
-replace the existing one on 
+<a href="https://bitbucket.org/shlomif/perl-cgi-application-netnewsiface/">CGI-Application-NetNewsIface</a> - a
+readonly web frontend to a remote NNTP (Usenet) server ultimately aimed to
+replace the existing one on
 <a href="http://www.nntp.perl.org/">www.nntp.perl.org</a>, but also serve for
 similar needs.
 </li>
 <li>
-<a href="http://web-cpan.berlios.de/modules/HTML-Widgets-NavMenu/">HTML-Widgets-NavMenu</a> 
-is a sophisticated generator for HTML navigation menus. See 
-<a href="http://use.perl.org/~Shlomi+Fish/journal/30249">this call for 
+<a href="$(ROOT)/modules/HTML-Widgets-NavMenu/">HTML-Widgets-NavMenu</a>
+is a sophisticated generator for HTML navigation menus. See
+<a href="http://use.perl.org/~Shlomi+Fish/journal/30249">this call for
 volunteers</a> for what needs to be done.
 </li>
 <li>
-<a href="$(ROOT)/modules/XML-CompareML/">XML-CompareML</a> - a module to 
+<a href="$(ROOT)/modules/XML-CompareML/">XML-CompareML</a> - a module to
 render CompareML, an XML-based grammar for comparisons into HTML or DocBook.
 Right now, we could really use an interactive web interface to query and also
 modify such a comparison.
 </li>
 <li>
-<a href="http://web-cpan.berlios.de/latemp/">Latemp</a>
+<a href="$(ROOT)/latemp/">Latemp</a>
 is an offline Content Management System (CMS) based on Web Meta Language,
 and several CPAN modules. It could use some love, too.
 </li>
 <li>
-<a href="http://svn.berlios.de/svnroot/repos/web-cpan/Test-Count/trunk/">Test-Count</a> 
+<a href="https://bitbucket.org/shlomif/perl-test-count">Test-Count</a>
 is a module for keeping track of the number of tests in a test script.
 </li>
 <li>
-<a href="http://svn.berlios.de/svnroot/repos/web-cpan/XML-Grammar-ProductsSyndication/trunk/">XML-Grammar-ProductsSyndication</a> 
+<a href="https://bitbucket.org/shlomif/perl-xml-grammar-productssyndication">XML-Grammar-ProductsSyndication</a>
 is a new project to define an XML grammar for syndicating products (like books,
 movies, CDs, etc.) on one's home site. It's still in its infancy. Contributions to it will be more than
 welcome.
@@ -109,9 +97,7 @@ welcome.
 </ul>
 
 <p>
-And there's some other less important 
-stuff <a href="http://svn.berlios.de/svnroot/repos/web-cpan/">in 
-the repository</a>.
+And there's a lot of other stuff <a href="http://www.shlomifish.org/open-source/projects/">on my open source projects page</a>.
 </p>
 
 <h2 id="receivers">Receivers</h2>
@@ -119,7 +105,7 @@ the repository</a>.
 <h3 id="receiver_leonerd">LeoNerd</h3>
 
 <p>
-<a href="http://www.leonerd.org.uk/">LeoNerd</a> (also see 
+<a href="http://www.leonerd.org.uk/">LeoNerd</a> (also see
 <a href="http://search.cpan.org/~pevans/">his CPAN page</a>, has helped in
 co-maintaining Error.pm, and got <a href="http://www.cafepress.co.uk/ozyandmillie/2222584">a "Whatever doesn't kill"</a> T-shirt for his boyfriend.
 </p>
@@ -127,14 +113,14 @@ co-maintaining Error.pm, and got <a href="http://www.cafepress.co.uk/ozyandmilli
 <h3 id="receiver_miriam">Miriam Erez</h3>
 
 <p>
-<a href="Miriam-wearing-Ozy-and-Millie-t-shirt.jpg" title="Click to Enlarge"><img 
+<a href="Miriam-wearing-Ozy-and-Millie-t-shirt.jpg" title="Click to Enlarge"><img
 src="Miriam-t-shirt-thumb.jpg" alt="Thumbnail of Miriam wearing the T-shirt."
 /></p>
 
 <p>
 Miriam of <a href="http://www.miriamereztranslations.co.il/">Miriam Erez
-Translations</a> has copy edited the Hebrew version of my story <a 
+Translations</a> has copy edited the Hebrew version of my story <a
 href="http://www.shlomifish.org/humour/TheEnemy/"><i>The Enemy and How I
-Helped to Fight it</i></a>, giving many useful corrections, and in return received <a href="http://www.cafepress.co.uk/ozyandmillie/6235320">a 
+Helped to Fight it</i></a>, giving many useful corrections, and in return received <a href="http://www.cafepress.co.uk/ozyandmillie/6235320">a
 "Tails" shirt</a>. She is photographed above wearing it.
 </p>

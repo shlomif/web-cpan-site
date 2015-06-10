@@ -6,9 +6,9 @@ use MyModulesList;
 
 my $hosts =
 {
-    'berlios' => 
+    'berlios' =>
     {
-        'base_url' => "http://web-cpan.berlios.de/",
+        'base_url' => "http://web-cpan.shlomifish.org/",
     },
 };
 
@@ -27,7 +27,7 @@ my $tree_contents =
 {
     'host' => "berlios",
     'text' => "Web-CPAN",
-    'title' => "A Berlios Hub for Development of CPAN Modules",
+    'title' => "CPAN Modules by Shlomi Fish and Others",
     'subs' =>
     [
         {
@@ -47,7 +47,7 @@ my $tree_contents =
         {
             'text' => "Get T-Shirts!",
             'url' => "offers/o-and-m-2006-08/",
-            'title' => ("Hack on Web-CPAN and get " . 
+            'title' => ("Hack on Web-CPAN and get " .
                 "an &quot;Ozy and Millie&quot; T-Shirt"),
         },
     ],
@@ -55,7 +55,7 @@ my $tree_contents =
 
 sub get_params
 {
-    return 
+    return
         (
             'hosts' => $hosts,
             'tree_contents' => $tree_contents,
