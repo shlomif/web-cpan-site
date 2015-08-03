@@ -1,14 +1,14 @@
 body { font-family : sans-serif }
-:link:hover, :visited:hover, img.highlight:hover 
-{ 
+:link:hover, :visited:hover, img.highlight:hover
+{
     /* LightGreen */
-    background-color : #90EE90; 
+    background-color : #90EE90;
 }
-td.navbar 
-{ 
+td.navbar
+{
     /* Moccasin: FFE4B5 */
     background-color: #FFE4B5;
-    width : 20% ; 
+    width : 20% ;
     border-color : black;
     border-width : thick;
     border-style : double;
@@ -19,13 +19,13 @@ td.navbar
 h1, h2, h3
 {
     font-family : serif;
-    border-style : solid ; 
+    border-style : solid ;
     border-width : thin;
     padding-left: 0.2em;
 }
 h1
 {
-    /* A colour like MediumOrchid only lighter and with less 
+    /* A colour like MediumOrchid only lighter and with less
        saturation.
        */
     background-color : #e187f7;
@@ -41,9 +41,9 @@ h2 :link:hover, h2 :visited:hover
 }
 /* Override for the navbar so it won't be highligted as red there */
 .navbar h2 :link:hover, .navbar h2 :visited:hover
-{ 
+{
     /* LightGreen */
-    background-color : #90EE90; 
+    background-color : #90EE90;
 }
 
 h3
@@ -70,13 +70,13 @@ div.rightalign { text-align : right }
 td.main { padding-left : 1em ; margin-left : 1em }
 
 h2.plain
-{ 
-    color : black ; 
-    border : none ; 
-    font-family : serif; 
+{
+    color : black ;
+    border : none ;
+    font-family : serif;
     background: transparent;
 }
-    
+
 /* Make sure it is not underlined when inside a boxed heading */
 h2 a,h3 a
 {
@@ -92,8 +92,8 @@ div.bookinfo h3
     background-color : transparent;
 }
 
-div.bookinfo 
-{ 
+div.bookinfo
+{
     border-style : dotted;
     border-width : thin;
     /* LightYellow */
