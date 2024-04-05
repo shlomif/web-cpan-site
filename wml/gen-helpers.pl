@@ -1,34 +1,29 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
 
-use HTML::Latemp::GenMakeHelpers;
+use HTML::Latemp::GenMakeHelpers ();
+use Path::Tiny                   qw/ path tempdir tempfile cwd /;
 
-my $generator =
-    HTML::Latemp::GenMakeHelpers->new(
-        'hosts' =>
-        [
-            {
-                'id' => "common",
-                'source_dir' => "common",
-                'dest_dir' => "common",
-            },
-            {
-                'id' => "src",
-                'source_dir' => "src",
-                'dest_dir' => "dest",
-            }
-        ],
-    );
+my $generator = HTML::Latemp::GenMakeHelpers->new(
+    'hosts' => [
+        {
+            'id'         => "common",
+            'source_dir' => "common",
+            'dest_dir'   => "common",
+        },
+        {
+            'id'         => "src",
+            'source_dir' => "src",
+            'dest_dir'   => "dest",
+        }
+    ],
+);
 
 $generator->process_all();
 
-use IO::All;
-
-my $text = io("include.mak")->slurp();
+my $mak_fh = path("include.mak");
+my $text   = $mak_fh->slurp_utf8();
 $text =~ s!^(T2_DOCS = .*)humour/fortunes/fortunes-index.html!$1!m;
-io("include.mak")->print($text);
-
-1;
-
+$mak_fh->spew_utf8($text);

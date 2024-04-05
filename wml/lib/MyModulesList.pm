@@ -3,16 +3,15 @@ package MyModulesList;
 use strict;
 use warnings;
 
-my @modules_list =
-(
+my @modules_list = (
     {
         'perl_name' => "App-XML-DocBook-Builder",
-        'subject' => "Docmake",
-        'text' => "Docmake",
-        'title' => "Translate DocBook/XML to Other Formats using XSLT",
-        'vcs' => { type => "bitbucket", id => "docmake", },
-        'svn_dir' => "App-XML-DocBook-Builder",
-        'desc' => <<"EOF",
+        'subject'   => "Docmake",
+        'text'      => "Docmake",
+        'title'     => "Translate DocBook/XML to Other Formats using XSLT",
+        'vcs'       => { type => "bitbucket", id => "docmake", },
+        'svn_dir'   => "App-XML-DocBook-Builder",
+        'desc'      => <<"EOF",
 <p>
 Docmake is a command line tool to translate
 <a href="http://en.wikipedia.org/wiki/DocBook">DocBook/XML</a> code into
@@ -32,11 +31,11 @@ EOF
 
     {
         'perl_name' => "HTML-Strip-Whitespace",
-        'text' => "Strip Whitespace",
-        'title' => "Strip Unnecessary Whitespace from HTML",
-        'vcs' => { type => "bitbucket", id => "docmake", },
-        'svn_dir' => "html-strip-ws",
-        'desc' => <<"EOF",
+        'text'      => "Strip Whitespace",
+        'title'     => "Strip Unnecessary Whitespace from HTML",
+        'vcs'       => { type => "bitbucket", id => "docmake", },
+        'svn_dir'   => "html-strip-ws",
+        'desc'      => <<"EOF",
 <p>
 This is a module to strip whitespace out of HTML pages. As opposed to other
 solutions (like
@@ -54,10 +53,10 @@ EOF
     },
     {
         'perl_name' => "HTML-Widgets-NavMenu",
-        'text' => "Navigation Menu",
-        'title' => "Generate Navigation Menus",
-        'svn_dir' => "nav-menu",
-        'desc' => <<"EOF",
+        'text'      => "Navigation Menu",
+        'title'     => "Generate Navigation Menus",
+        'svn_dir'   => "nav-menu",
+        'desc'      => <<"EOF",
 <p>
 This is a module to generate HTML navigation menus, such as those found in
 the side-bar of various sites (like that of this one, or of
@@ -104,11 +103,11 @@ EOF
     },
     {
         'perl_name' => "Statistics-Descriptive",
-        'subject' => "Statistics-Descriptive",
-        'text' => "Statistics-Descriptive",
+        'subject'   => "Statistics-Descriptive",
+        'text'      => "Statistics-Descriptive",
         'title' => "Module for Performing Statistical Analysis on Numeric Data",
         'svn_dir' => "Statistics-Descriptive",
-        'desc' => <<"EOF",
+        'desc'    => <<"EOF",
 <p>
 Statistics-Descriptive is a module to perform Statistical Analysis on
 numeric data. It can retrieve such things as the mean (or average), the median,
@@ -132,10 +131,10 @@ EOF
     },
     {
         'perl_name' => "SVN-Pusher",
-        'text' => "SVN::Pusher",
-        'title' => "Propagate Changesets between Subversion Repositories",
-        'svn_dir' => "SVN-Pusher",
-        'desc' => <<"EOF",
+        'text'      => "SVN::Pusher",
+        'title'     => "Propagate Changesets between Subversion Repositories",
+        'svn_dir'   => "SVN-Pusher",
+        'desc'      => <<"EOF",
 <p>
 This module allows one to propagate changesets from one
 <a href="http://subversion.tigris.org/">Subversion repository</a> to the
@@ -145,10 +144,10 @@ EOF
     },
     {
         'perl_name' => "SVN-RaWeb-Light",
-        'text' => "Light SVN Interface",
-        'title' => "A Lightweight Web-based Subversion Interface",
-        'svn_dir' => "svn-light-web",
-        'desc' => <<"EOF",
+        'text'      => "Light SVN Interface",
+        'title'     => "A Lightweight Web-based Subversion Interface",
+        'svn_dir'   => "svn-light-web",
+        'desc'      => <<"EOF",
 <p>
 This module once installed and driven by a CGI script provides a lightweight
 Web-based browser for remote
@@ -167,10 +166,10 @@ EOF
     },
     {
         'perl_name' => "Test-Run",
-        'text' => "Test::Run",
-        'title' => "A new and improved test harness",
-        'svn_dir' => "Test-Harness-NG",
-        'desc' => <<"EOF",
+        'text'      => "Test::Run",
+        'title'     => "A new and improved test harness",
+        'svn_dir'   => "Test-Harness-NG",
+        'desc'      => <<"EOF",
 <p>
 Test::Run is a new and improved test harness for processing
 <a href="http://testanything.org/">TAP (Test Anything Protocol)</a>-based
@@ -270,10 +269,10 @@ EOF
     },
     {
         'perl_name' => "WWW-Form",
-        'text' => "WWW::Form",
-        'title' => "Manage Forms Flow Using Perl",
-        'svn_dir' => "www-form",
-        'desc' => <<"EOF"
+        'text'      => "WWW::Form",
+        'title'     => "Manage Forms Flow Using Perl",
+        'svn_dir'   => "www-form",
+        'desc'      => <<"EOF"
 <p>
 WWW::Form is a module for handling the world-wide-web form process. It
 enables generating forms, filling them from user input, verifying them,
@@ -283,10 +282,10 @@ EOF
     },
     {
         'perl_name' => "WWW-OpenSVN",
-        'text' => "WWW::OpenSVN",
-        'title' => "An automated interface to http://opensvn.csie.org/",
-        'svn_dir' => "www-opensvn",
-        'desc' => <<"EOF"
+        'text'      => "WWW::OpenSVN",
+        'title'     => "An automated interface to http://opensvn.csie.org/",
+        'svn_dir'   => "www-opensvn",
+        'desc'      => <<"EOF"
 <p>
 WWW::OpenSVN is an automated interface for the
 <a href="http://opensvn.csie.org/">OpenSVN online Subversion repositories
@@ -297,10 +296,10 @@ EOF
     },
     {
         'perl_name' => "XML-CompareML",
-        'text' => "XML::CompareML",
-        'title' => "An XML Grammar for Managing Comparisons",
-        'svn_dir' => "xml-compareml",
-        'desc' => <<"EOF"
+        'text'      => "XML::CompareML",
+        'title'     => "An XML Grammar for Managing Comparisons",
+        'svn_dir'   => "xml-compareml",
+        'desc'      => <<"EOF"
 <p>
 XML::CompareML is a module for managing multi-system and multi-item
 comparisons. The primary use of this module by its author was to manage
@@ -317,11 +316,11 @@ EOF
     },
     {
         'perl_name' => "XML-Grammar-Fortune",
-        'text' => "XML-Grammar-Fortune",
-        'title' => "An XML Grammar for Defining Collections of Quotes",
-        'vcs' => { type => "bitbucket", id => "fortune-xml", },
-        'svn_dir' => "XML-Grammar-Fortune",
-        'desc' => <<"EOF",
+        'text'      => "XML-Grammar-Fortune",
+        'title'     => "An XML Grammar for Defining Collections of Quotes",
+        'vcs'       => { type => "bitbucket", id => "fortune-xml", },
+        'svn_dir'   => "XML-Grammar-Fortune",
+        'desc'      => <<"EOF",
 <p>
 XML-Grammar-Fortune allows one to collect quotes (or Unix-like fortune
 cookies) using an XML grammar, with a lot of rich meta-data, and to produce
@@ -371,10 +370,10 @@ EOF
     },
     {
         'perl_name' => "XML-Grammar-Screenplay",
-        'text' => "XML-Grammar-Screenplay",
-        'title' => "An XML Grammar for Rendering Screenplays",
-        'svn_dir' => "XML-Grammar-Screenplay",
-        'desc' => <<"EOF",
+        'text'      => "XML-Grammar-Screenplay",
+        'title'     => "An XML Grammar for Rendering Screenplays",
+        'svn_dir'   => "XML-Grammar-Screenplay",
+        'desc'      => <<"EOF",
 <p>
 XML-Grammar-Screenplay is a processor for well-formed plain text representing
 Screenplays. This in turn is rendered into a specialized XML format, and
@@ -424,15 +423,13 @@ Some shorter and sillier examples can be found <a href="https://bitbucket.org/sh
 </li>
 </ul>
 EOF
-    }
+    },
 
 );
 
 sub get_module_list
 {
-    return \@modules_list,
+    return \@modules_list;
 }
 
 1;
-
-
